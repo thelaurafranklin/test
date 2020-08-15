@@ -1,0 +1,40 @@
+<!doctype HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="app.css">
+    <title>Kitten Clicker</title>
+  </head>
+  <body>
+    <header>
+      <h1>Kitten Clicker</h1>
+    </header>
+    <main>
+      <div id="kitten-thumbs"></div>
+      <div id="kitten-full">
+        <figure class="figure-full">
+          <figcaption id="caption" class="caption-full bold"></figcaption>
+          <img id="kitten-img" src="">
+          <div class="counter-div">
+            <p class="counter bold">Number of Clicks:</p>
+            <p id="kitten-count"></p>
+          </div>
+        </figure>
+      </div>
+      <button type="button" id="admin-button">Enter Admin</button>
+      <div id="admin" class="hidden">
+        <label for="name">Name:</label>
+        <input type="text" id="name">
+        <label for="src">Src:</label>
+        <input type="text" id="src">
+        <label for="count">Count:</label>
+        <input type="text" id="count">
+        <button type="button" id="admin-cancel">Cancel</button>
+        <button type="button" id="admin-update">Update</button>
+      </div>
+    </main>
+    <footer></footer>
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>
